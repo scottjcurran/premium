@@ -2,8 +2,21 @@ h1 {
     color: seagreen;
 }
 
-h3,
-li {
+h3 {
 font-size: 18px;
 color: purple;
  }
+
+.partners {
+   color: blue;
+ }
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+video {
+  width: 100%;
+  height: auto;
+}
