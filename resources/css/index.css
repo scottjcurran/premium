@@ -25,16 +25,30 @@ video {
   height: auto;
 }
 
-nav span {
-  margin: 0 10px;
+/*Navigation*/
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #4173a7
 }
 
-#buttons {
-  border-radius: 4px;
-  color: #05A8AA;
-  font-weight: 700;
-  width: 10px;
-  margin: 20px;
-  padding: 10px;
-  border: 1px solid blue;
+.navigation {
+  display: flex;
+}
+
+.navigation a {
+  display: block;
+  padding: 16px;
+  color: #fff;
+}
+
+.logo, .navigation {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.logo a, .navigation a {
+  text-decoration: none;
 }
